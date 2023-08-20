@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Desafio Final - APIs</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+    <body class="bg-dark text-light">
+        <div class="container text-center justify-content-center align-content-center">
+            <div class="row justify-content-md-center">
+                <h1 class="pb-3 pt-5  text-center">Conversor de monedas Nacional</h1>
+                <hr class="bg-light"/>
+
+                <div class="col-md-auto pb-5 bg-secondary">
+                    <h2 class="px-5 mx-5 mt-3">
+                        Pesos CLP
+                    </h2>
+                    <input id="moneda" type="number" class="col-12">
+                    <label class="col-8 p-4" >Moneda a convertir</label>
+                    <select id="lista" class="form-select mb-3" aria-label="Default select example">
+                        <option selected>Seleccione una moneda</option>
+                        <!-- <option value="1">One</option> -->
+                    </select>
+                    <button id="buscar" type="button" class="btn btn-info mb-5">Buscar</button>
+                    <div id="resultado" class="col-10">
+
+                    </div>
+                    <div >
+                        <canvas id="grafico"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
